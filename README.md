@@ -1,10 +1,9 @@
 
-# This is a skeleton file for building a webapp for SRX using PyEZ library. 
+# This is a skeleton file for building a webapp for SRX using Flask, bootstrap template and PyEZ library. 
 
 ### Mac: 
 ----------------
 ```sh
-	$ mongod &
 	$ python app.py
 ```
 
@@ -14,22 +13,13 @@
 	$ python app.py
 ```
 
-## Geo Data Download:
------------------
-There is a file 'GeoLiteCity.dat' you need to download and place under the "static" directory for displaying Geo data.
-1. Download GeoLiteCity.dat 
-2. http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
-3. gunzip GeoLiteCity.dat.gz
-
-
 ## Installation with Vagrant and VirtualBox
 -----------------
 1. Install vagrant
 2. Install virtual box
-3. git clone https://github.com/andyleung/session-analyzer
+3. git clone https://github.com/andyleung/srx-skeleton
 
 ```sh
-	# cd session-analyzer
 	# python app.py
 ```
 
@@ -89,6 +79,6 @@ There is a file 'GeoLiteCity.dat' you need to download and place under the "stat
 6. To run:  
 ------------------
 ```sh
-		 % cd session-analyzer
+		 % cd srx-skeleton 
 		 % python app.py
 ```
